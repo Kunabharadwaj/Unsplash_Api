@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unsplash API Demo</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <div id="header">
+            <h2 id="title">
+              <i class="fas fa-camera" style="color: orange;"></i> Unsplash API
+              Demo
+            </h2>
+            <div id="search_box">
+              <input id="input" type="text" placeholder="Search..." /><i
+                id="search"
+                class="fas fa-search"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <div id="grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
